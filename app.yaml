@@ -11,5 +11,6 @@ handlers:
   # required when static routes are defined, but can be omitted (along with
   # the entire handlers section) when there are no static files defined.
 - url: /.*
-  script: main.py
+  script: auto
+  secure: always
   redirect_http_response_code: 301
